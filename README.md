@@ -11,6 +11,8 @@ Video:
 
 # Description of the project
 
+# Primary research videos/pictures
+
 # Instructions for use
 
 # How it works
@@ -22,6 +24,9 @@ Video:
 
 # References
 
+# My observations of real life vs the project simulation
+
 # What I am most proud of in the assignment
 
 # What I learned
+
