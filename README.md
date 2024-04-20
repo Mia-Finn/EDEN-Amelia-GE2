@@ -1,7 +1,4 @@
-# EDEN-Amelia-GE2
- My repo for Game Engines 2 assignment, EDEN.
-
- # Game Engines Assignment Repo
+# Game Engines Assignment Repo
 
 Name: Amelia Finnerty
 
