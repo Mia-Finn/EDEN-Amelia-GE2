@@ -1,4 +1,4 @@
-# Game Engines Assignment Repo
+# EDEN Game Engines Assignment Repo
 
 Name: Amelia Finnerty
 
