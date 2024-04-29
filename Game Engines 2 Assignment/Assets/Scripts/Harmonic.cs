@@ -18,20 +18,6 @@ public class Harmonic : SteeringBehaviour
     Vector3 target;
     Vector3 worldTarget;
 
-    /*
-    private void OnDrawGizmos()
-    {
-        if (Application.isPlaying && isActiveAndEnabled)
-        {
-            Vector3 localCp = (Vector3.forward * distance);
-            Vector3 worldCP = transform.TransformPoint(localCp);
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(worldCP, radius);
-            Gizmos.color = Color.magenta;
-            Gizmos.DrawLine(transform.position, worldTarget);
-        }
-    }
-    */
     public override Vector3 Calculate()
     {
         float n = Mathf.Sin(theta);

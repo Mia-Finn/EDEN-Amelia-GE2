@@ -18,21 +18,6 @@ public class NoiseWand : SteeringBehaviour
     Vector3 target;
     Vector3 worldTarget;
 
-    /*
-    private void OnDrawGizmos()
-    {
-        if (Application.isPlaying && isActiveAndEnabled)
-        {
-            Vector3 localCp = (Vector3.forward * distance);
-            Vector3 worldCP = transform.TransformPoint(localCp);
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(worldCP, radius);
-            Gizmos.color = Color.magenta;
-            Gizmos.DrawLine(transform.position, worldTarget);
-        }
-    }
-    */
-    // Update is called once per frame
     public override Vector3 Calculate()
     {
         float n = (Mathf.PerlinNoise(theta, 1) * 2.0f) - 1.0f;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(boid))]
+[RequireComponent(typeof(myBoid))]
 
 public abstract class SteeringBehaviour : MonoBehaviour
 {
@@ -10,11 +10,11 @@ public abstract class SteeringBehaviour : MonoBehaviour
     public Vector3 force;
 
     [HideInInspector]
-    public boid boid;
+    public myBoid boid;
 
     public void Awake()
     {
-        boid = GetComponent<boid>();
+        boid = GetComponent<myBoid>();
     }
 
     public abstract Vector3 Calculate();
