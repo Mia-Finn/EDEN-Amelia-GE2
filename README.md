@@ -21,6 +21,18 @@ Video:
 
 | Class/asset | Source |
 |-----------|-----------|
+|Harmonic.cs|Script from class|
+|Myboid.cs|Script modified from class|
+|Movement.cs|Script from previous project|
+|NoiseWand.cs|Script from class|
+|SteeringBehaviour.cs|Script from class|
+|boid.cs|Script from class|
+|cursorController.cs|Self written|
+|mouseLook.cs|Self written|
+|sceenSwitch.cs|Self written|
+|seek.cs|Script from class|
+|spineGen.cs|Script from class|
+|wingFlapping.cs|Script from [refernce]()|
 
 # References
 
