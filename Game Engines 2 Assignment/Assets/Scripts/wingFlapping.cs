@@ -15,6 +15,6 @@ public class wingFlapping : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(initPos.x, Mathf.Sin(Time.time* freq) * amp + initPos.y, 0);
+        transform.position = new Vector3(initPos.x, Mathf.Sin(Time.time* freq) * amp + initPos.y, initPos.z);
     }
 }
