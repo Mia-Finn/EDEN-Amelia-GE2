@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Spring scene.unity
+    guid: f62afd02337717842ab4c1a437e50e10
+  - enabled: 1
+    path: Assets/Scenes/Summer scene.unity
+    guid: 5bfdd30150101b74094feec3ca1dfcfc
+  - enabled: 1
+    path: Assets/Scenes/Autumn scene.unity
+    guid: ac342c6fe49fca54b961d3aabf0ef190
+  - enabled: 1
+    path: Assets/Scenes/Winter scene.unity
+    guid: 2739c9bbaba2fb14197b3ad77b9f2580
   m_configObjects: {}
