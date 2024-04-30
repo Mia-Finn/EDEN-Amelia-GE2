@@ -38,7 +38,7 @@ public class myBoid : MonoBehaviour
         desired *= maxSpeed;
         return desired - velocity;
     }
-
+    /*
     public Vector3 ArriveForce(Vector3 target, float slowingDistance = 40.0f)
     {
         Vector3 toTarget = target - transform.position;
@@ -60,7 +60,7 @@ public class myBoid : MonoBehaviour
             return Vector3.zero;
         }
     }
-
+    */
 
     Vector3 Calculate()
     {
