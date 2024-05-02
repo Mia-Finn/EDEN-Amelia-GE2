@@ -7,11 +7,17 @@ TagManager:
   - Flower
   - Bird
   - Worm
+  - BB
+  - BT
+  - R
+  - CF
+  - HS
+  - GF
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bird
   - Water
   - UI
   - 
