@@ -139,7 +139,7 @@ public class seek : SteeringBehaviour
         //Move towards flower
         Vector3 chaseTargetPos = Vector3.MoveTowards(transform.position, flower.transform.position, speed * Time.deltaTime);
         transform.position = chaseTargetPos;
-        */
+        
 
         //Eat flower
         if (Vector3.Distance(gameObject.transform.position, flower.transform.position) < 0.5f)
@@ -147,6 +147,7 @@ public class seek : SteeringBehaviour
             flower.SetActive(false);
             Debug.Log("Eat");
         }
+        */
     }
     void boolControl()
     {

@@ -21,13 +21,13 @@ public class textController : MonoBehaviour
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
             isHit = true;
-            Debug.Log("Hit");
+          //  Debug.Log("Hit");
         }
         else
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
             isHit = false;
-            Debug.Log("Not Hit");
+         //   Debug.Log("Not Hit");
         }
 
         //Find gameobjects
