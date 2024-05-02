@@ -360,8 +360,9 @@
 "Assets/FarlandSkies/Demo/Scripts/Player/SmoothMouseLook.cs"
 "Assets/FarlandSkies/Demo/Scripts/Skybox/SkyboxChanger.cs"
 "Assets/FarlandSkies/Demo/Scripts/Skybox/SkyboxRotator.cs"
-"Assets/Scripts/active.cs"
+"Assets/flowerGrow.cs"
 "Assets/Scripts/birdFly.cs"
+"Assets/Scripts/birdStateMachine.cs"
 "Assets/Scripts/boid.cs"
 "Assets/Scripts/cursorController.cs"
 "Assets/Scripts/Harmonic.cs"
@@ -375,6 +376,7 @@
 "Assets/Scripts/SteeringBehaviour.cs"
 "Assets/Scripts/wingFlapping.cs"
 "Assets/Scripts/wormStateMachine.cs"
+"Assets/textController.cs"
 -langversion:9.0
 
 /deterministic

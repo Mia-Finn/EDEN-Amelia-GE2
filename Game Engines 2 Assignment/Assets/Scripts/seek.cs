@@ -116,7 +116,7 @@ public class seek : SteeringBehaviour
     void wormFlee()
     {
             target = targetGameObject.transform.position - gameObject.transform.position;
-            Debug.Log("Flee");
+           // Debug.Log("Flee");
 
         /*
         Vector3 fleeTargetPos = Vector3.MoveTowards(transform.position, flower.transform.position - gameObject.transform.position, speed * Time.deltaTime);
@@ -131,7 +131,7 @@ public class seek : SteeringBehaviour
         {
             target = targetGameObject.transform.position;
         }
-        Debug.Log("Chase");
+        //Debug.Log("Chase");
         /*
         //worm above ground
         worm.SetActive(true);
