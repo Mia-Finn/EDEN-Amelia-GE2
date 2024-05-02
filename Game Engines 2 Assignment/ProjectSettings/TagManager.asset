@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Flower
+  - Bird
+  - Worm
   layers:
   - Default
   - TransparentFX
