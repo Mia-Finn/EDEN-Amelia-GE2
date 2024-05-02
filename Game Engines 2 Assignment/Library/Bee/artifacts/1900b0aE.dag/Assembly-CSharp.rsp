@@ -373,6 +373,7 @@
 "Assets/Scripts/spineGen.cs"
 "Assets/Scripts/SteeringBehaviour.cs"
 "Assets/Scripts/wingFlapping.cs"
+"Assets/wormStateMachine.cs"
 -langversion:9.0
 
 /deterministic
