@@ -16,18 +16,20 @@ public class seek : SteeringBehaviour
     private State currentState;
 
     //Stuff for triggers for states
-    private GameObject flower, bird, worm;
+    public GameObject flower, bird, worm;
     public float speed;
 
     void Start()
     {
         //Set start state
-        currentState = State.Idle;
+        currentState = State.Chase;
 
+        /*
         //Find objects
         flower = GameObject.FindGameObjectWithTag("Flower");
         bird = GameObject.FindGameObjectWithTag("Bird");
         worm = GameObject.FindGameObjectWithTag("Worm");
+        */
     }
 
     public override Vector3 Calculate()
@@ -49,6 +51,7 @@ public class seek : SteeringBehaviour
         //state machine
         switch (currentState)
         {
+            /*
             case State.Idle:
 
                 if (canIdle == true)
@@ -64,6 +67,7 @@ public class seek : SteeringBehaviour
                     currentState = State.Chase;
                 }
                 break;
+                */
 
             case State.Flee:
 
@@ -99,6 +103,7 @@ public class seek : SteeringBehaviour
         }
     }
 
+    /*
     void wormIdle()
     {
         //worm underground
@@ -106,22 +111,27 @@ public class seek : SteeringBehaviour
 
         Debug.Log("Idle");
     }
+    */
 
     void wormFlee()
     {
+            target = targetGameObject.transform.position - gameObject.transform.position;
+            Debug.Log("Flee");
+
+        /*
         Vector3 fleeTargetPos = Vector3.MoveTowards(transform.position, flower.transform.position - gameObject.transform.position, speed * Time.deltaTime);
         transform.position = fleeTargetPos;
         Debug.Log("Flee");
+        */
     }
 
     void wormChase()
     {
-
         if (targetGameObject != null)
         {
             target = targetGameObject.transform.position;
         }
-
+        Debug.Log("Chase");
         /*
         //worm above ground
         worm.SetActive(true);
@@ -147,7 +157,7 @@ public class seek : SteeringBehaviour
             canFlee = false;
             canChase = false;
         }
-        else if (Vector3.Distance(gameObject.transform.position, bird.transform.position) < 1f)
+        else if (Vector3.Distance(worm.transform.position, bird.transform.position) < 3f)
         {
             //Go away from bird
             canIdle = false;
