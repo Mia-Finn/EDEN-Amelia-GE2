@@ -5,7 +5,6 @@ using UnityEngine;
 public class swoop : MonoBehaviour
 {
     public GameObject bird, D1, D2;
-    public float speed;
 
     private void Update()
     {
