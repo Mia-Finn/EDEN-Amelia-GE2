@@ -13,6 +13,6 @@ public class birdFly : MonoBehaviour
         //fly towards a target
         Vector3 targetPos = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
         transform.position = targetPos;
-        Debug.Log("Moving!");
+      //  Debug.Log("Moving!");
     }
 }

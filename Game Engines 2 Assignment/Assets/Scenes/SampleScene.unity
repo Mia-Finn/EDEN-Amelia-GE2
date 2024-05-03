@@ -176,6 +176,13 @@ MonoBehaviour:
   boid: {fileID: 0}
   targetGameObject: {fileID: 1372633955}
   target: {x: 0, y: 0, z: 0}
+  canIdle: 0
+  canFlee: 0
+  canChase: 0
+  flower: {fileID: 0}
+  bird: {fileID: 0}
+  worm: {fileID: 0}
+  speed: 0
 --- !u!65 &108081529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -625,6 +632,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298951986}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &415819093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3698609065299296342, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+  m_PrefabInstance: {fileID: 4355496127950979596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &415819105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415819093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a8cbdcba4f56542b445eda857dd3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  targetGameObject: {fileID: 1447533272}
+  target: {x: 0, y: 0, z: 0}
 --- !u!1 &424130513
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +727,13 @@ MonoBehaviour:
   boid: {fileID: 0}
   targetGameObject: {fileID: 1372633955}
   target: {x: 0, y: 0, z: 0}
+  canIdle: 0
+  canFlee: 0
+  canChase: 0
+  flower: {fileID: 0}
+  bird: {fileID: 0}
+  worm: {fileID: 0}
+  speed: 0
 --- !u!65 &424130517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1674,6 +1710,13 @@ MonoBehaviour:
   boid: {fileID: 0}
   targetGameObject: {fileID: 1372633955}
   target: {x: 0, y: 0, z: 0}
+  canIdle: 0
+  canFlee: 0
+  canChase: 0
+  flower: {fileID: 0}
+  bird: {fileID: 0}
+  worm: {fileID: 0}
+  speed: 0
 --- !u!114 &867478168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1931,6 +1974,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 1
+--- !u!1 &943535617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 737209921183215419, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+  m_PrefabInstance: {fileID: 4355496127950979596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &943535629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943535617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a8cbdcba4f56542b445eda857dd3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  targetGameObject: {fileID: 1447533272}
+  target: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,6 +2877,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382488992}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1447533272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2487179773564575521, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+  m_PrefabInstance: {fileID: 4355496127950979596}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1491958594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3592,6 +3662,13 @@ MonoBehaviour:
   boid: {fileID: 0}
   targetGameObject: {fileID: 1372633955}
   target: {x: 0, y: 0, z: 0}
+  canIdle: 0
+  canFlee: 0
+  canChase: 0
+  flower: {fileID: 0}
+  bird: {fileID: 0}
+  worm: {fileID: 0}
+  speed: 0
 --- !u!114 &1625698224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5137,6 +5214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1275770105850986611, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1576346607464621110, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
       propertyPath: m_Name
       value: Test Bird
@@ -5145,14 +5226,41 @@ PrefabInstance:
       propertyPath: targetGameObject
       value: 
       objectReference: {fileID: 1372633955}
+    - target: {fileID: 5520132624853969886, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620622954258965131, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7432331838702011855, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1372633955}
-    m_RemovedComponents: []
+    - target: {fileID: 7432331838702011855, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499544553370911923, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5520132624853969886, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+    - {fileID: 8499544553370911923, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+    - {fileID: 6872807436435981556, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+    - {fileID: 1779977275739355275, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+    - {fileID: 4822575211874576972, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 737209921183215419, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 943535629}
+    - targetCorrespondingSourceObject: {fileID: 3698609065299296342, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 415819105}
   m_SourcePrefab: {fileID: 100100000, guid: 4605018f3dead3f469fe6018f752c776, type: 3}
 --- !u!1001 &8991112943327029469
 PrefabInstance:
