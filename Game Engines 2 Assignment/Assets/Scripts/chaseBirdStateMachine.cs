@@ -87,7 +87,7 @@ public class chaseBirdStateMachine : MonoBehaviour
         //rotate movement direction
         //  bird.transform.rotation = Quaternion.Slerp(bird.transform.rotation, Quaternion.LookRotation(goPos), Time.deltaTime * 40f);
 
-        Debug.Log("Idle");
+      //  Debug.Log("Idle");
     }
 
     void birdChase()
@@ -100,7 +100,7 @@ public class chaseBirdStateMachine : MonoBehaviour
         //rotate movement direction
       //  bird.transform.rotation = Quaternion.Slerp(bird.transform.rotation, Quaternion.LookRotation(newPos), Time.deltaTime * 40f);
 
-        Debug.Log("Chase");
+      //  Debug.Log("Chase");
 
         /*
         //seek code
