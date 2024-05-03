@@ -82,7 +82,7 @@ public class birdStateMachine : MonoBehaviour
 
     void boolCheck()
     {
-        if(Vector3.Distance(player.transform.position, bird.transform.position) > 5f) // && Vector3.Distance(bird.transform.position, worm.transform.position) > 10f)
+        if(Vector3.Distance(player.transform.position, bird.transform.position) > 5f)
         {
             canIdle = true;
             canFlee = false;
@@ -104,7 +104,9 @@ public class birdStateMachine : MonoBehaviour
 
     void birdIdle()
     {
-      //  bird.transform.position = idlePos.transform.position;
+        Vector3 firstPos = idlePos.transform.position;
+        Vector3 goPos = Vector3.MoveTowards(transform.position, firstPos, speed * Time.deltaTime);
+        transform.position = goPos;
         Debug.Log("Idle");
     }
 
@@ -120,6 +122,9 @@ public class birdStateMachine : MonoBehaviour
 
     void birdFlee()
     {
+        Vector3 fleePos = bird.transform.position - player.transform.position;
+        Vector3 newPos = Vector3.MoveTowards(transform.position, fleePos, speed * Time.deltaTime);
+        transform.position = newPos;
         Debug.Log("Flee");
     }
 }
