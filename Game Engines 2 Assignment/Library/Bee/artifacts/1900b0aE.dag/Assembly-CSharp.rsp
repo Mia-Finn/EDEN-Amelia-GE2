@@ -363,6 +363,7 @@
 "Assets/Scripts/birdFly.cs"
 "Assets/Scripts/birdStateMachine.cs"
 "Assets/Scripts/boid.cs"
+"Assets/Scripts/chaseBirdStateMachine.cs"
 "Assets/Scripts/cursorController.cs"
 "Assets/Scripts/flowerGrow.cs"
 "Assets/Scripts/Harmonic.cs"
