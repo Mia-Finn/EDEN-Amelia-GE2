@@ -8,33 +8,72 @@ public class textController : MonoBehaviour
 {
     public GameObject player, BB, BT, R, CF, HS, GF;
     public TMP_Text typeText, habitatText, factText;
+    private bool isBB, isBT, isR, isCF, isHS, isGF;
     // public string None;
 
     private void Update()
     {
-        if(Vector3.Distance(player.transform.position, BT.transform.position) < 5f)
+        //Check distance from bird
+        isBB = Vector3.Distance(player.transform.position, BB.transform.position) < 5f; //Blackbird
+        isBT = Vector3.Distance(player.transform.position, BT.transform.position) < 5f; //Blue tit
+        isR = Vector3.Distance(player.transform.position, R.transform.position) < 5f; //Robin
+        isCF = Vector3.Distance(player.transform.position, CF.transform.position) < 5f; //Chaffinch
+        isHS = Vector3.Distance(player.transform.position, HS.transform.position) < 5f; //House Sparrow
+        isGF = Vector3.Distance(player.transform.position, GF.transform.position) < 5f; //Goldfinch
+
+        if (isBT) //Vector3.Distance(player.transform.position, BT.transform.position) < 5f)
         {
+            typeText.text = "Bird Type: Blue tit";
+            habitatText.text = "Habitat: Gardens & Farmland";
+            factText.text = "Fun Fact: Considered a European bird even though they are found in most of the world";
+
             Debug.Log("Is Blue Tit");
         }
-        else if(Vector3.Distance(player.transform.position, BB.transform.position) < 5f)
+        else if(isBB) //Vector3.Distance(player.transform.position, BB.transform.position) < 5f)
         {
+            typeText.text = "Bird Type: Blackbird";
+            habitatText.text = "Habitat: Gardens & Farmland";
+            factText.text = "Fun Fact: Males are black with orange beaks, females are brown";
+
             Debug.Log("Is Blackbird");
         }
-        else if (Vector3.Distance(player.transform.position, R.transform.position) < 5f)
+        else if (isR) //Vector3.Distance(player.transform.position, R.transform.position) < 5f)
         {
+            typeText.text = "Bird Type: Blackbird";
+            habitatText.text = "Habitat: Gardens & Farmland";
+            factText.text = "Fun Fact: Males are black with orange beaks, females are brown";
+
             Debug.Log("Is Blackbird");
         }
-        else if (Vector3.Distance(player.transform.position, CF.transform.position) < 5f)
+        else if (isCF) //Vector3.Distance(player.transform.position, CF.transform.position) < 5f)
         {
+            typeText.text = "Bird Type: Goldfinch";
+            habitatText.text = "Habitat: Gardens & Farmland";
+            factText.text = "Fun Fact: Many Goldfinches migrate in the Winter";
+
             Debug.Log("Is Goldfinch");
         }
-        else if (Vector3.Distance(player.transform.position, HS.transform.position) < 5f)
+        else if (isHS) //Vector3.Distance(player.transform.position, HS.transform.position) < 5f)
         {
+            typeText.text = "Bird Type: Goldfinch";
+            habitatText.text = "Habitat: Gardens & Farmland";
+            factText.text = "Fun Fact: Many Goldfinches migrate in the Winter";
+
             Debug.Log("Is Goldfinch");
         }
-        else if (Vector3.Distance(player.transform.position, GF.transform.position) < 5f)
+        else if (isGF) //Vector3.Distance(player.transform.position, GF.transform.position) < 5f)
         {
+            typeText.text = "Bird Type: Goldfinch";
+            habitatText.text = "Habitat: Gardens & Farmland";
+            factText.text = "Fun Fact: Many Goldfinches migrate in the Winter";
+
             Debug.Log("Is Goldfinch");
+        }
+        else if(!isGF && !isCF && !isBT && !isBB && !isHS && !isR)
+        {
+            typeText.text = " ";
+            habitatText.text = " ";
+            factText.text = " ";
         }
     }
 
