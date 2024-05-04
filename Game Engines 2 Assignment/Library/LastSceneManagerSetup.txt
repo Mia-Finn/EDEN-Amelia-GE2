@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Summer scene.unity
+- path: Assets/Scenes/Autumn scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
