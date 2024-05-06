@@ -13,7 +13,7 @@ Video:
 For my EDEN project I wanted to recreate the nature found in my own garden. As I live out in the countryside I'm surrounded about a lot of nature from birds to foxes. I decided to focus on the birds in my garden in particular as I've always had an interest in bird watching and I thought that it would be fun to recreate in Unity. In my project you can explore a low-poly style garden where you're able to interact with the animals in the scene, as well as just watch them interact with eachother. As the main focus of the game is birds, there are a few different type throughout the game and you can switch the seasons in which you're playing to see more types and to learn all about the birds that we most commonly see in and around our gardens here in ireland, so that you'll be able to identify them for yourself the next time you're out looking!
 
 # Primary research videos/pictures
-Link to the folder with my [primary research]([https://drive.google.com/drive/folders/1U_38BIjF2x9La3iPT4CQNQc0ab5A-h9D?usp=sharing](https://drive.google.com/drive/folders/1U_38BIjF2x9La3iPT4CQNQc0ab5A-h9D?usp=sharing))
+Link to the folder with my [primary research](https://drive.google.com/drive/folders/1U_38BIjF2x9La3iPT4CQNQc0ab5A-h9D?usp=sharing)
 
 # Instructions for use
 W,A,S,D - to move the character around.
