@@ -22,7 +22,38 @@ Link to the folder with my [primary research](https://drive.google.com/drive/fol
 * E - to interact with game items, when prompted to do so.
 
 # How it works
+In this project you can move around the scene with the character controller that uses Unity's input system. While exploring the scene you cna observe the birds that are there, each scene is a different seasosn that has different birds to view. You can use the menu to change the season that you are in. The seasons buttons have a scene switch sript attached to them and when they are pressed they call a public void to switch the game scene. (Code example below)
 
+```C#
+public void summerScene()
+    {
+        SceneManager.LoadScene("Summer scene");
+    }
+```
+
+There are three types of small birds within each level that will bob up and down in their 'idle' state and I have used the UI system in Unity to display some details about each one so you know what you are looking at. There is also one big bird in each level that flies overhead. Some of the small birds have a state machine script that has three states, idle, flee and chase. When the bird is not near the player or a worm it is in the 'idle' state, when the player approches the bird it will change to 'flee' and then back to 'idle' once the player has moved away. The bird will enter the 'chase' state when a worm gets close enough, in this state the bird will move towards the worm until it catches it. (Code example below)
+
+```C#
+ if (Vector3.Distance(player.transform.position, bird.transform.position) > 5f)
+        {
+            canIdle = true;
+            canFlee = false;
+        }
+```
+
+```C#
+  case State.Flee:
+
+                if (canIdle == true)
+                {
+                    currentState = State.Idle;
+                }
+                else if (canFlee == true)
+                {
+                    birdFlee();
+                }
+                break;
+```
 
 # List of classes/assets in the project
 
