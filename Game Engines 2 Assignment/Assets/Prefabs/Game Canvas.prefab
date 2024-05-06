@@ -9902,7 +9902,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6693496028640154548}
         m_TargetAssemblyTypeName: sceneSwitch, Assembly-CSharp
         m_MethodName: winterScene
         m_Mode: 1
@@ -11048,7 +11048,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6693496028640154548}
         m_TargetAssemblyTypeName: sceneSwitch, Assembly-CSharp
         m_MethodName: summerScene
         m_Mode: 1
@@ -13365,7 +13365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8112290912076223751
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19823,7 +19823,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6693496028640154548}
         m_TargetAssemblyTypeName: sceneSwitch, Assembly-CSharp
         m_MethodName: autumnScene
         m_Mode: 1
@@ -27214,6 +27214,7 @@ GameObject:
   - component: {fileID: 5972372031406408812}
   - component: {fileID: 2760689228064980319}
   - component: {fileID: 2678347407143686251}
+  - component: {fileID: 6693496028640154548}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -27309,6 +27310,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &6693496028640154548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7409442760570004933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5cc002a297bed446a39d48682084472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7423640297933130255
 GameObject:
   m_ObjectHideFlags: 0
@@ -27430,7 +27443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6693496028640154548}
         m_TargetAssemblyTypeName: sceneSwitch, Assembly-CSharp
         m_MethodName: springScene
         m_Mode: 1
