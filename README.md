@@ -65,17 +65,17 @@ E - to interact with game items, when prompted to do so.
 |Kestrel sounds|From [freesound.org](https://freesound.org/people/dobroide/sounds/17507/)|
 
 # References
-Facts on [Blackbirds](https://www.livingwithbirds.com/tweetapedia/21-facts-on-blackbird)
-Facts on [Blue Tits](https://www.livingwithbirds.com/tweetapedia/21-facts-on-blue-tit)
-Facts on [House Sparrows](https://www.livingwithbirds.com/tweetapedia/21-facts-on-house-sparrow)
-Facts on [Robins](https://www.livingwithbirds.com/tweetapedia/21-facts-on-robin)
-Facts on [Starlings](https://www.livingwithbirds.com/tweetapedia/21-facts-on-starling)
-Facts on [Goldfinches](https://www.livingwithbirds.com/tweetapedia/21-facts-on-goldfinch)
-Facts on [Chaffinches](https://www.livingwithbirds.com/tweetapedia/21-facts-on-chaffinch)
-Facts on [Pigeons](https://www.excelpestservices.com/11-fun-facts-about-pigeons/)
-Facts on [Herring Gulls](https://www.allaboutbirds.org/guide/Herring_Gull/overview)
-Facts on [Crows](https://www.mentalfloss.com/article/504722/12-fascinating-facts-about-crows)
-Facts on [Kestrels](https://www.livingwithbirds.com/tweetapedia/21-facts-on-kestrel)
+* Facts on [Blackbirds](https://www.livingwithbirds.com/tweetapedia/21-facts-on-blackbird)
+* Facts on [Blue Tits](https://www.livingwithbirds.com/tweetapedia/21-facts-on-blue-tit)
+* Facts on [House Sparrows](https://www.livingwithbirds.com/tweetapedia/21-facts-on-house-sparrow)
+* Facts on [Robins](https://www.livingwithbirds.com/tweetapedia/21-facts-on-robin)
+* Facts on [Starlings](https://www.livingwithbirds.com/tweetapedia/21-facts-on-starling)
+* Facts on [Goldfinches](https://www.livingwithbirds.com/tweetapedia/21-facts-on-goldfinch)
+* Facts on [Chaffinches](https://www.livingwithbirds.com/tweetapedia/21-facts-on-chaffinch)
+* Facts on [Pigeons](https://www.excelpestservices.com/11-fun-facts-about-pigeons/)
+* Facts on [Herring Gulls](https://www.allaboutbirds.org/guide/Herring_Gull/overview)
+* Facts on [Crows](https://www.mentalfloss.com/article/504722/12-fascinating-facts-about-crows)
+* Facts on [Kestrels](https://www.livingwithbirds.com/tweetapedia/21-facts-on-kestrel)
 
 # My observations of real life vs the project simulation
 
