@@ -16,10 +16,10 @@ For my EDEN project I wanted to recreate the nature found in my own garden. As I
 Link to the folder with my [primary research](https://drive.google.com/drive/folders/1U_38BIjF2x9La3iPT4CQNQc0ab5A-h9D?usp=sharing)
 
 # Instructions for use
-W,A,S,D - to move the character around.
-Move mouse - look around and the player will move in that direction.
-Escape - will bring up the main menu, where you can edit settings and change the seasons in the game.
-E - to interact with game items, when prompted to do so.
+* W,A,S,D - to move the character around.
+* Move mouse - look around and the player will move in that direction.
+* Escape - will bring up the main menu, where you can edit settings and change the seasons in the game.
+* E - to interact with game items, when prompted to do so.
 
 # How it works
 
