@@ -50,7 +50,7 @@ E - to interact with game items, when prompted to do so.
 |All tree and bush assets|Self made|
 |All bird assets|Self made|
 |Any other assets in scenes|Self made|
-|Pictures of birds|Google images|
+|Pictures of birds|[Google Images](https://images.google.com/)|
 |Background bird song in scenes|Self recorded|
 |Blackbird song|Self recorded|
 |Blue Tit song|From [freesound.org](https://freesound.org/people/acclivity/sounds/509707/)|
