@@ -39,7 +39,7 @@ E - to interact with game items, when prompted to do so.
 |sceenSwitch.cs|Self written|
 |seek.cs|Script from class|
 |spineGen.cs|Script from class|
-|wingFlapping.cs|Script from [refernce]()|
+|wingFlapping.cs|Script from [Youtube reference]()|
 |chaseBirdStateMachine.cs|Self written|
 |flowerGrow.cs|Self written|
 |swoop.cs|Self written|
@@ -60,11 +60,22 @@ E - to interact with game items, when prompted to do so.
 |Goldfinch song|From [freesound.org](https://freesound.org/people/TRP/sounds/616983/)|
 |Chaffinch song|From [freesound.org](https://freesound.org/people/dobroide/sounds/50883/)|
 |Pigeon sounds|From [freesound.org](https://freesound.org/people/squashy555/sounds/319512/)|
-|Seagull sounds|From [freesound.org](https://freesound.org/people/se2001/sounds/510204/)|
+|Herring Gull sounds|From [freesound.org](https://freesound.org/people/se2001/sounds/510204/)|
 |Crow sounds|From [freesound.org](https://freesound.org/people/mudflea2/sounds/708181/)|
 |Kestrel sounds|From [freesound.org](https://freesound.org/people/dobroide/sounds/17507/)|
 
 # References
+Facts on [Blackbirds](https://www.livingwithbirds.com/tweetapedia/21-facts-on-blackbird)
+Facts on [Blue Tits](https://www.livingwithbirds.com/tweetapedia/21-facts-on-blue-tit)
+Facts on [House Sparrows](https://www.livingwithbirds.com/tweetapedia/21-facts-on-house-sparrow)
+Facts on [Robins](https://www.livingwithbirds.com/tweetapedia/21-facts-on-robin)
+Facts on [Starlings](https://www.livingwithbirds.com/tweetapedia/21-facts-on-starling)
+Facts on [Goldfinches](https://www.livingwithbirds.com/tweetapedia/21-facts-on-goldfinch)
+Facts on [Chaffinches](https://www.livingwithbirds.com/tweetapedia/21-facts-on-chaffinch)
+Facts on [Pigeons](https://www.excelpestservices.com/11-fun-facts-about-pigeons/)
+Facts on [Herring Gulls](https://www.allaboutbirds.org/guide/Herring_Gull/overview)
+Facts on [Crows](https://www.mentalfloss.com/article/504722/12-fascinating-facts-about-crows)
+Facts on [Kestrels](https://www.livingwithbirds.com/tweetapedia/21-facts-on-kestrel)
 
 # My observations of real life vs the project simulation
 
