@@ -31,7 +31,7 @@ public void summerScene()
     }
 ```
 
-There are three types of small birds within each level that will bob up and down in their 'idle' state and I have used the UI system in Unity to display some details about each one so you know what you are looking at. There is also one big bird in each level that flies overhead. Some of the small birds have a state machine script that has three states, idle, flee and chase. When the bird is not near the player or a worm it is in the 'idle' state, when the player approches the bird it will change to 'flee' and then back to 'idle' once the player has moved away. The bird will enter the 'chase' state when a worm gets close enough, in this state the bird will move towards the worm until it catches it. (Code example below)
+There are three types of small birds within each level that will bob up and down in their 'idle' state and I have used the UI system in Unity to display some details about each one so you know what you are looking at. There is also one big bird in each level that flies overhead. The big birds in each scene fly between two waypoints, the wings of the bird are made from the same code as the worms in the scene, so they can cometimes be a bit glitchy. Some of the small birds have a state machine script that has three states, idle, flee and chase. When the bird is not near the player or a worm it is in the 'idle' state, when the player approches the bird it will change to 'flee' and then back to 'idle' once the player has moved away. The bird will enter the 'chase' state when a worm gets close enough, in this state the bird will move towards the worm until it catches it. The state machine is still a bit buggy in the game as I didn't have enough time to fix it fully for the submission so I didn't want to apply it to all of the birds. (Code example below)
 
 ```C#
  if (Vector3.Distance(player.transform.position, bird.transform.position) > 5f)
@@ -55,6 +55,38 @@ There are three types of small birds within each level that will bob up and down
                 break;
 ```
 
+The worms in the scene were made from the material we learned in class and from script that I modified from class repos. These worms will seek out the flowers in the scene and will move towards them, once they get near enough to the flower it will be eaten and another one will spawn close by. The flowers have a script on them that causes them to jump to a radom set of coordinates within a certain range when the worm gets close enough to 'eat' the previous flower. I had originally wanted to do a sript that would regrow flowers block by block using procedural animation but unfortunately I didn't have enough time to implement it. The worms had a state machine where they would flee from birds and chase the flower when the player scared the bird away but it was causing some bugs in the levels and had to be left out. (Code example below)
+
+```C#
+ void Update()
+    {
+        //move to new random position
+        if (Vector3.Distance(worm.transform.position, flower.transform.position) < 1f)
+        {
+            goNewPos();
+            transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime * speed);
+        }
+    }
+
+    void goNewPos()
+    {
+        newPos = new Vector3(Random.Range(-200.0f, 200.0f), transform.position.y ,Random.Range(-200.0f, 200.0f));
+    }
+```
+
+The scenes all have a table with a book on it in them, when the player approaches the book they can press 'E' to open it. Upon doing so the canvas in the scene will display the book's UI, here the players can look at information oand pictures of all of the different birds in the game and they can even use the buttons found in the book to play the different calls of each one of the birds so that they can learn to identify the birds they may scene in their own gardens. (Code example below)
+
+```C#
+ void Update()
+    {
+     if(Input.GetKeyDown(KeyCode.E) && Vector3.Distance(player.transform.position, gameObject.transform.position) < 3f)
+        {
+            bookInfo.SetActive(true);
+            birdText.SetActive(false);
+        }
+    }
+```
+
 # List of classes/assets in the project
 
 | Class/asset | Source |
@@ -72,11 +104,14 @@ There are three types of small birds within each level that will bob up and down
 |spineGen.cs|Script from class|
 |wingFlapping.cs|Script modified from a past class project|
 |chaseBirdStateMachine.cs|Self written|
-|flowerGrow.cs|Self written|
+|flowerGrow.cs|Script modified from reference|
 |swoop.cs|Self written|
 |textController.cs|Script from class|
 |wingSeek.cs|Script modified from class|
 |wormStateMachine.cs|Self written|
+|birdFly.cs|Script modified from class|
+|birdStateMachine.cs|Self written|
+|bookInteract.cs|Self written|
 |Skybox|From [asset store](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)|
 |All tree and bush assets|Self made|
 |All bird assets|Self made|
@@ -107,6 +142,7 @@ There are three types of small birds within each level that will bob up and down
 * Facts on [Herring Gulls](https://www.allaboutbirds.org/guide/Herring_Gull/overview)
 * Facts on [Crows](https://www.mentalfloss.com/article/504722/12-fascinating-facts-about-crows)
 * Facts on [Kestrels](https://www.livingwithbirds.com/tweetapedia/21-facts-on-kestrel)
+* [Reference](https://forum.unity.com/threads/moving-object-in-random-position-in-scence-like-fly.328050/) for the flower growing script.
 
 # My observations of real life vs the project simulation
 
