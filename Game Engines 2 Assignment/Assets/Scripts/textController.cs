@@ -14,13 +14,13 @@ public class textController : MonoBehaviour
     private void Update()
     {
         //Check distance from bird
-        isBB = Vector3.Distance(player.transform.position, BB.transform.position) < 3f; //Blackbird
-        isBT = Vector3.Distance(player.transform.position, BT.transform.position) < 3f; //Blue tit
-        isR = Vector3.Distance(player.transform.position, R.transform.position) < 3f; //Robin
-        isCF = Vector3.Distance(player.transform.position, CF.transform.position) < 3f; //Chaffinch
-        isHS = Vector3.Distance(player.transform.position, HS.transform.position) < 3f; //House Sparrow
-        isGF = Vector3.Distance(player.transform.position, GF.transform.position) < 3f; //Goldfinch
-        isS = Vector3.Distance(player.transform.position, S.transform.position) < 3f; //Starling
+        isBB = Vector3.Distance(player.transform.position, BB.transform.position) < 5f; //Blackbird
+        isBT = Vector3.Distance(player.transform.position, BT.transform.position) < 5f; //Blue tit
+        isR = Vector3.Distance(player.transform.position, R.transform.position) < 5f; //Robin
+        isCF = Vector3.Distance(player.transform.position, CF.transform.position) < 5f; //Chaffinch
+        isHS = Vector3.Distance(player.transform.position, HS.transform.position) < 5f; //House Sparrow
+        isGF = Vector3.Distance(player.transform.position, GF.transform.position) < 5f; //Goldfinch
+        isS = Vector3.Distance(player.transform.position, S.transform.position) < 5f; //Starling
         isBook = Vector3.Distance(player.transform.position, Book.transform.position) < 3f; //Book menu open
 
         if (isBT)
