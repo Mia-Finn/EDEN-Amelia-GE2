@@ -40,6 +40,29 @@ E - to interact with game items, when prompted to do so.
 |seek.cs|Script from class|
 |spineGen.cs|Script from class|
 |wingFlapping.cs|Script from [refernce]()|
+|chaseBirdStateMachine.cs|Self written|
+|flowerGrow.cs|Self written|
+|swoop.cs|Self written|
+|textController.cs|Script from class|
+|wingSeek.cs|Script modified from class|
+|wormStateMachine.cs|Self written|
+|Skybox|From [asset store](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)|
+|All tree and bush assets|Self made|
+|All bird assets|Self made|
+|Any other assets in scenes|Self made|
+|Pictures of birds|Google images|
+|Background bird song in scenes|Self recorded|
+|Blackbird song|Self recorded|
+|Blue Tit song|From [freesound.org](https://freesound.org/people/acclivity/sounds/509707/)|
+|House Sparrow song|From [freesound.org](https://freesound.org/people/soundbytez/sounds/110991/)|
+|Robin song|From [freesound.org](https://freesound.org/people/Sparrer/sounds/49985/)|
+|Starling song|From [freesound.org](https://freesound.org/people/PianoFarm/sounds/521799/)|
+|Goldfinch song|From [freesound.org](https://freesound.org/people/TRP/sounds/616983/)|
+|Chaffinch song|From [freesound.org](https://freesound.org/people/dobroide/sounds/50883/)|
+|Pigeon sounds|From [freesound.org](https://freesound.org/people/squashy555/sounds/319512/)|
+|Seagull sounds|From [freesound.org](https://freesound.org/people/se2001/sounds/510204/)|
+|Crow sounds|From [freesound.org](https://freesound.org/people/mudflea2/sounds/708181/)|
+|Kestrel sounds|From [freesound.org](https://freesound.org/people/dobroide/sounds/17507/)|
 
 # References
 
