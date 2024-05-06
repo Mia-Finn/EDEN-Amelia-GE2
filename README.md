@@ -145,8 +145,21 @@ The scenes all have a table with a book on it in them, when the player approache
 * [Reference](https://forum.unity.com/threads/moving-object-in-random-position-in-scence-like-fly.328050/) for the flower growing script.
 
 # My observations of real life vs the project simulation
-
+I also felt that this project encouraged me to spend more time out in the garden or even just looking out the windows, enjoying the nature that surrounds us everyday without the need for technology.
+ 
 # What I am most proud of in the assignment
+I liked the idea of having small birds to show the state machine behaviours that we learned in class while having the bigger birds fly overhead show the different boid script taht we learned, similar to that of the worms. I think the wings look cool on the birds, although as mentioned before sometimes they can get a bit buggy but I still think they're quite interesting to watch. It feels almost peaceful just to be able to go from looking at all of the scenenry and life of the garen to the calmer sky where the birds are just flying back and forth. I think this reflects my actual garden really well and as the days get longer and the weather gets better I hope to be able to spend more time outside just looking at the nature that lives there.
+
+I really like how the worms turned out, I struggled a lot at the beginning with how I wanted to implement them into the scenes. I learned a lot from the classes on boids and the different behaviours, the original class repo and it's various creatures really inpsired me. I thought they looked really cool with all of the different behaviours, it almost made them seem like they had unique personalities. When I settled on my garden and it's wildlife as the theme for this project I knew that I could try and incoporate these creatures in some way. First I though about snakes as they do look a lot like them but there aren't many snakes in my garden so I went for worms instead! I like how they turned out however I do wish that I would have been able to get the state machine workig for submission but that's definitely something I can keep working on over the summer!
+
+I enjoyed making the bird info book. When I thought of the idea for my EDEN project originally I wanted to recreate the birds in my garden as I saw them when doing my research, I felt I was able to do that and I'm proud of how it turned out even if there are a few bugs still. When making the scenes I realised that noteveryone may have a garden or space close to their house to see these birds or if they do they may not now a lot about them. As a result, instead of just showing these birds I wanted to try and teach players a bit about them too so that they can go outside and see and photograph them for themsleves! I really enjoyed making the book with the information on birds and the pictures becasue I was able to learn more about birds that I see and hear everyday and I learned a lot that I didn't know before. I am really proud of how it turned out, I'm especially proud of the buttons for the bird sounds as I think it was a really nice touch.
 
 # What I learned
+A lot about state machines from a lot of trial and error.
+
+Plan better with time.
+
+Learned some about procedural generation.
+
+A lot about Unity's UI system.
 
