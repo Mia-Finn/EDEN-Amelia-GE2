@@ -39,7 +39,7 @@ E - to interact with game items, when prompted to do so.
 |sceenSwitch.cs|Self written|
 |seek.cs|Script from class|
 |spineGen.cs|Script from class|
-|wingFlapping.cs|Script from [Youtube reference]()|
+|wingFlapping.cs|Script modified from a past class project|
 |chaseBirdStateMachine.cs|Self written|
 |flowerGrow.cs|Self written|
 |swoop.cs|Self written|
