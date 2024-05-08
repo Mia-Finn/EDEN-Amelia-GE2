@@ -16,8 +16,6 @@ For my EDEN project I wanted to recreate the nature found in my own garden at ho
 # Primary research videos/pictures
 Link to the folder with my [primary research](https://drive.google.com/drive/folders/1U_38BIjF2x9La3iPT4CQNQc0ab5A-h9D?usp=sharing)
 
-(Still missing some photos from my Canon camera, they will be added to the folder soon!)
-
 # Instructions for use
 * W,A,S,D - to move the character around.
 * Move mouse - look around and the player will move in that direction.
